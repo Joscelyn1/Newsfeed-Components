@@ -1,32 +1,3 @@
-/*
-
-class Panel {
-  constructor(panel) {
-    // Important: don't use document.querySelector, use the panel.
-    this.openButton = panel.querySelector('.panel-btn-open')
-    this.closeButton = panel.querySelector('.panel-btn-close')
-    this.panelContent = panel.querySelector('.panel-content')
-    this.open = 0;
-    this.openButton.addEventListener('click', () => this.togglePanel());
-    this.closeButton.addEventListener('click', () => this.togglePanel());
-    return this;
-  }
-  
-  togglePanel() {
-    this.panelContent.classList.toggle('toggle-on');
-    this.openButton.classList.toggle('hide-btn');
-    this.closeButton.classList.toggle('hide-btn');
-    this.open = !this.open
-    if(this.open) closeActivePanels(this);
-  }
-}
-
-*/
-
-
-
-
-
 // Because classes are not hoisted you will need to start your code at the bottom of the page.  Look for the comment "START HERE"
 
 class Article {
@@ -36,12 +7,12 @@ class Article {
     // create a reference to the ".expandButton" class. 
     this.expandButton = document.querySelectorAll('.expandButton');
     // Using your expandButton reference, update the text on your expandButton to say "expand"
-    
-    this.expandButton.forEach( (button) => {
+
+    this.expandButton.forEach((button) => {
       button.textContent = "expand";
     })
     // Set a click handler on the expandButton reference, calling the expandArticle method.
-    this.expandButton.forEach( (button) => {
+    this.expandButton.forEach((button) => {
       button.addEventListener('click', () => this.expandArticle());
     })
 
