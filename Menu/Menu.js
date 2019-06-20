@@ -1,6 +1,10 @@
 const toggleMenu = () => {
   // Toggle the "menu--open" class on your menu refence. 
   menu.classList.toggle('menu--open');
+
+}
+
+const toggleMenuAnimation = () => {
   menu.classList.toggle('run-slidein');
 }
 
@@ -15,4 +19,8 @@ const menuButton = document.querySelector('.menu-button')
 
 menuButton.addEventListener('click', function (event) {
   toggleMenu();
+})
+
+menuButton.addEventListener('click', function (event) {
+  toggleMenuAnimation();
 })
