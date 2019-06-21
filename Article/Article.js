@@ -11,7 +11,6 @@ class Article {
     this.expandButton.forEach((button) => {
       button.textContent = "expand";
     })
-    // Set a click handler on the expandButton reference, calling the expandArticle method.
     this.expandButton.forEach((button) => {
       button.addEventListener('click', () => this.expandArticle());
     })

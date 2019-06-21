@@ -41,10 +41,10 @@
   cursor: pointer;
 }
 @keyframes slidein {
-  from {
-    left: -400px;
+  0% {
+    left: -350px;
   }
-  to {
+  100% {
     left: 0;
   }
 }
@@ -52,7 +52,7 @@
   display: none;
   position: fixed;
   top: 75px;
-  left: -400px;
+  left: -350px;
   width: 350px;
   height: 100vh;
   /* This give the height 100% of the screen or, '100% of View Height' */
@@ -64,7 +64,8 @@
   /* This set the layer level of the element, it has precendence over initial level of 1*/
 }
 .run-slidein {
-  animation: slidein 3s linear 1s 1 running;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
 }
 .menu ul li {
   list-style-type: none;
