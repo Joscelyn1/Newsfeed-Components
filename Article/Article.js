@@ -318,14 +318,13 @@ const articleData = [
   {
     title: "Lambda School Students: \"We're the best!\"",
     date: "Nov 5, 2017",
-    content: `<p>Lucas ipsum dolor sit amet ben twi'lek padmé darth darth darth moff hutt organa twi'lek. Ben amidala secura skywalker lando moff wicket tatooine luke. Solo wampa wampa calrissian yoda moff. Darth grievous darth gonk darth hutt. Darth baba skywalker
+    content: [`Lucas ipsum dolor sit amet ben twi'lek padmé darth darth darth moff hutt organa twi'lek. Ben amidala secura skywalker lando moff wicket tatooine luke. Solo wampa wampa calrissian yoda moff. Darth grievous darth gonk darth hutt. Darth baba skywalker
       watto fett jango maul han. Mon ewok sidious sidious lando kenobi grievous gamorrean solo. Yoda wedge utapau
       darth calamari.
       Hutt calamari darth jabba. Darth dooku amidala organa moff. Boba darth binks solo hutt skywalker dantooine
       skywalker. Qui-gonn
-      jar twi'lek jinn leia jango skywalker mon.</p>
-  
-    <p>Grievous fett calamari anakin skywalker hutt. Alderaan darth kenobi darth r2-d2
+      jar twi'lek jinn leia jango skywalker mon.`,
+    `Grievous fett calamari anakin skywalker hutt. Alderaan darth kenobi darth r2-d2
       windu mothma. Sidious darth calamari moff. Wampa mothma sith wedge solo mara. Darth gonk maul sith moff
       chewbacca palpatine
       mace amidala. C-3po solo skywalker anakin yoda leia. Maul wampa bespin watto jade ewok darth jabba. Lando
@@ -334,19 +333,19 @@ const articleData = [
       darth. Moff
       solo leia ben ponda jade. Binks jango aayla skywalker skywalker cade. Mustafar darth ventress anakin watto.
       Yavin jawa sebulba
-      owen jinn tatooine sith organa.</p>
+      owen jinn tatooine sith organa.`,
   
-    <p>Dagobah hutt jawa leia calamari ventress skywalker yoda. Binks wicket hutt coruscant sidious
+    `Dagobah hutt jawa leia calamari ventress skywalker yoda. Binks wicket hutt coruscant sidious
       naboo ackbar tatooine. Hutt lars padmé darth. Maul solo darth darth jabba qui-gon chewbacca darth maul. Moff
       baba wicket
       han. C-3po antilles moff qui-gon ahsoka aayla dooku amidala. Palpatine droid amidala droid k-3po twi'lek padmé
       wookiee. Leia
-      moff calamari mon obi-wan. Solo grievous lando coruscant. Jinn darth palpatine obi-wan mon.</p>`
+      moff calamari mon obi-wan. Solo grievous lando coruscant. Jinn darth palpatine obi-wan mon.`]
   },
   {
     title: "Javascript and You, ES6",
     date: "Nov 7, 2017",
-    content: `<p>Alohamora wand elf parchment, Wingardium Leviosa hippogriff, house dementors betrayal. Holly, Snape centaur
+    content: [`Alohamora wand elf parchment, Wingardium Leviosa hippogriff, house dementors betrayal. Holly, Snape centaur
     portkey ghost
     Hermione spell bezoar Scabbers. Peruvian-Night-Powder werewolf, Dobby pear-tickle half-moon-glasses, Knight-Bus.
     Padfoot
@@ -356,20 +355,20 @@ const articleData = [
     mimbletonia Pigwidgeon
     knut phoenix feather other minister Azkaban. Hedwig Daily Prophet treacle tart full-moon Ollivanders
     You-Know-Who cursed.
-    Fawkes maze raw-steak Voldemort Goblin Wars snitch Forbidden forest grindylows wool socks.</p>
+    Fawkes maze raw-steak Voldemort Goblin Wars snitch Forbidden forest grindylows wool socks.`,
 
-  <p>Boggarts lavender robes, Hermione Granger Fantastic Beasts and Where to Find Them. Bee in your bonnet Hand of
+  `Boggarts lavender robes, Hermione Granger Fantastic Beasts and Where to Find Them. Bee in your bonnet Hand of
     Glory elder
     wand, spectacles House Cup Bertie Bott’s Every Flavor Beans Impedimenta. Stunning spells tap-dancing spider
     Slytherin’s Heir
     mewing kittens Remus Lupin. Palominos scarlet train black robes, Metamorphimagus Niffler dead easy second
     bedroom. Padma
-    and Parvati Sorting Hat Minister of Magic blue turban remember my last.</p>`
+    and Parvati Sorting Hat Minister of Magic blue turban remember my last.`]
   },
   {
     title: "React vs Angular vs Vue",
     date: "Nov 7, 2017",
-    content: `<p>Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet,
+    content: [`Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet,
     consectetur adipiscing
     elit. Venusaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmander Lorem ipsum dolor sit amet,
     consectetur
@@ -385,9 +384,9 @@ const articleData = [
     adipiscing elit.
     Kakuna Lorem ipsum dolor sit amet, consectetur adipiscing elit. Beedrill Lorem ipsum dolor sit amet, consectetur
     adipiscing
-    elit.</p>
+    elit.`,
 
-  <p>Pidgey Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pidgeotto Lorem ipsum dolor sit amet,
+  `Pidgey Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pidgeotto Lorem ipsum dolor sit amet,
     consectetur adipiscing
     elit. Pidgeot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rattata Lorem ipsum dolor sit amet,
     consectetur adipiscing
@@ -405,46 +404,46 @@ const articleData = [
     sit amet,
     consectetur adipiscing elit. Nidoran Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nidorino Lorem
     ipsum dolor
-    sit amet, consectetur adipiscing elit. Nidoking Lorem ipsum</p>`
+    sit amet, consectetur adipiscing elit. Nidoking Lorem ipsum`]
   },
   {
     title: "Professional Software Development in 2018",
     date: "Nov 7th 2017",
-    content: `  <p>Hodor hodor HODOR! Hodor hodor - hodor, hodor. Hodor hodor... Hodor hodor hodor; hodor hodor. Hodor hodor
+    content: [`Hodor hodor HODOR! Hodor hodor - hodor, hodor. Hodor hodor... Hodor hodor hodor; hodor hodor. Hodor hodor
     hodor, hodor, hodor
     hodor. Hodor, hodor. Hodor. Hodor, hodor - hodor... Hodor hodor hodor; hodor HODOR hodor, hodor hodor?! Hodor
     hodor, hodor.
-    Hodor hodor hodor hodor hodor! Hodor hodor - HODOR hodor, hodor hodor hodor hodor hodor; hodor hodor? </p>
+    Hodor hodor hodor hodor hodor! Hodor hodor - HODOR hodor, hodor hodor hodor hodor hodor; hodor hodor? `,
 
-  <p>Hodor, hodor. Hodor. Hodor, hodor, hodor. Hodor hodor, hodor. Hodor hodor, hodor, hodor hodor. Hodor! Hodor
+  `Hodor, hodor. Hodor. Hodor, hodor, hodor. Hodor hodor, hodor. Hodor hodor, hodor, hodor hodor. Hodor! Hodor
     hodor, hodor;
     hodor hodor hodor? Hodor, hodor. Hodor. Hodor, hodor - HODOR hodor, hodor hodor hodor! Hodor, hodor. Hodor.
     Hodor, HODOR
     hodor, hodor hodor, hodor, hodor hodor. Hodor hodor - hodor - hodor... Hodor hodor hodor hodor hodor hodor
     hodor?! Hodor
-    hodor - hodor hodor hodor. Hodor. Hodor hodor... Hodor hodor hodor hodor hodor? </p>
+    hodor - hodor hodor hodor. Hodor. Hodor hodor... Hodor hodor hodor hodor hodor?`,
 
-  <p>Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor
+  `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor
     hodor? Hodor!
     Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor,
     hodor.
     Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor
     hodor. Hodor.
-  </p>
+  `,
 
-  <p>Hodor, hodor. Hodor. Hodor, hodor, hodor. Hodor hodor, hodor. Hodor hodor, hodor, hodor hodor. Hodor! Hodor
+  `Hodor, hodor. Hodor. Hodor, hodor, hodor. Hodor hodor, hodor. Hodor hodor, hodor, hodor hodor. Hodor! Hodor
     hodor, hodor;
     hodor hodor hodor? Hodor, hodor. Hodor. Hodor, hodor - HODOR hodor, hodor hodor hodor! Hodor, hodor. Hodor.
     Hodor, HODOR
     hodor, hodor hodor, hodor, hodor hodor. Hodor hodor - hodor - hodor... Hodor hodor hodor hodor hodor hodor
     hodor?! Hodor
-    hodor - hodor hodor hodor. Hodor. Hodor hodor... Hodor hodor hodor hodor hodor? </p>`
+    hodor - hodor hodor hodor. Hodor. Hodor hodor... Hodor hodor hodor hodor hodor?`]
   },
   {
     title: "Top Used Algorithms in JavaScript",
     date: "April 25, 2019",
-    content: `
-    <p>Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet,
+    content: [`
+    Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet,
     consectetur adipiscing
     elit. Venusaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmander Lorem ipsum dolor sit amet,
     consectetur
@@ -460,9 +459,9 @@ const articleData = [
     adipiscing elit.
     Kakuna Lorem ipsum dolor sit amet, consectetur adipiscing elit. Beedrill Lorem ipsum dolor sit amet, consectetur
     adipiscing
-    elit.</p>
+    elit.`,
 
-  <p>Pidgey Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pidgeotto Lorem ipsum dolor sit amet,
+  `Pidgey Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pidgeotto Lorem ipsum dolor sit amet,
     consectetur adipiscing
     elit. Pidgeot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rattata Lorem ipsum dolor sit amet,
     consectetur adipiscing
@@ -480,14 +479,14 @@ const articleData = [
     sit amet,
     consectetur adipiscing elit. Nidoran Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nidorino Lorem
     ipsum dolor
-    sit amet, consectetur adipiscing elit. Nidoking Lorem ipsum</p>
-    `
+    sit amet, consectetur adipiscing elit. Nidoking Lorem ipsum`]
+    
   },
   {
     title: "JavaScript Modules for the Web",
     date: "June 19, 2019",
-    content: `
-    {/* <p>Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet,
+    content: 
+    [`Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet,
       consectetur adipiscing
       elit. Venusaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmander Lorem ipsum dolor sit amet,
       consectetur
@@ -503,9 +502,9 @@ const articleData = [
       adipiscing elit.
       Kakuna Lorem ipsum dolor sit amet, consectetur adipiscing elit. Beedrill Lorem ipsum dolor sit amet, consectetur
       adipiscing
-      elit.</p>
+      elit.`,
   
-    <p>Pidgey Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pidgeotto Lorem ipsum dolor sit amet,
+   `Pidgey Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pidgeotto Lorem ipsum dolor sit amet,
       consectetur adipiscing
       elit. Pidgeot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rattata Lorem ipsum dolor sit amet,
       consectetur adipiscing
@@ -523,13 +522,13 @@ const articleData = [
       sit amet,
       consectetur adipiscing elit. Nidoran Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nidorino Lorem
       ipsum dolor
-      sit amet, consectetur adipiscing elit. Nidoking Lorem ipsum</p>
-    `
+      sit amet, consectetur adipiscing elit. Nidoking Lorem ipsum`]
+    
   },
   {
     title: "Asynchronous Programming Basics Using JavaScript",
     date: "August 6, 2018",
-    content: `  <p>Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet,
+    content: [`Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet,
     consectetur adipiscing
     elit. Venusaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmander Lorem ipsum dolor sit amet,
     consectetur
@@ -545,9 +544,9 @@ const articleData = [
     adipiscing elit.
     Kakuna Lorem ipsum dolor sit amet, consectetur adipiscing elit. Beedrill Lorem ipsum dolor sit amet, consectetur
     adipiscing
-    elit.</p>
+    elit.`,
 
-  <p>Pidgey Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pidgeotto Lorem ipsum dolor sit amet,
+  `Pidgey Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pidgeotto Lorem ipsum dolor sit amet,
     consectetur adipiscing
     elit. Pidgeot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rattata Lorem ipsum dolor sit amet,
     consectetur adipiscing
@@ -565,9 +564,7 @@ const articleData = [
     sit amet,
     consectetur adipiscing elit. Nidoran Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nidorino Lorem
     ipsum dolor
-    sit amet, consectetur adipiscing elit. Nidoking Lorem ipsum</p>
-    `
-
+    sit amet, consectetur adipiscing elit. Nidoking Lorem ipsum`]
   }
 ]
 
