@@ -584,17 +584,25 @@ function createPanel(title, date, content) {
   const articleDate = document.createElement('p');
   const articleContent = document.createElement('div');
   const expandButton = document.createElement('span');
+  const paragraph = document.createElement('p');
 
   panel.appendChild(articleTitle);
   panel.appendChild(articleDate);
   panel.appendChild(articleContent);
   panel.appendChild(expandButton);
 
+  for (let element of content) {
+    articleContent.appendChild(paragraph);
+  }
+
   panel.classList.add('article');
   expandButton.classList.add('expandButton');
 
   expandButton.textContent = "expand";
-  articleContent.textContent = content;
+
+  for (let element of content) {
+    paragraph.textContent = content[element];
+  }
   articleDate.textContent = date;
   articleTitle.textContent = title;
 
@@ -602,6 +610,7 @@ function createPanel(title, date, content) {
     console.log('button clicked', event.target)
     // 1. toggle hide-btn on BOTH buttons
     panel.classList.toggle('article-open');
+    paragraph.classList.toggle('article-open');
 
     // 2. Change visibility of the content w/ 'toggle-on'
   })
